@@ -1,38 +1,56 @@
-# farmProject
+# Crop Connect Cooperative
 
-This template should help get you started developing with Vue 3 in Vite.
+A Vue 3 + Vite web app that connects local growers and community members through a cooperative-style marketplace.
 
-## Recommended IDE Setup
+## Live Site
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- https://kdrolle594.github.io/Crop-Connect-Cooperative/
 
-## Recommended Browser Setup
+## Tech Stack
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Vue 3
+- Vite
+- Vue Router
+- GitHub Pages (deployment via `gh-pages`)
 
-## Customize configuration
+## Getting Started
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+### Install
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Run locally (development)
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Build for production
 
 ```sh
 npm run build
 ```
+
+### Preview the production build locally
+
+```sh
+npm run preview
+```
+
+## Deploy (GitHub Pages)
+
+This project is configured to deploy the `dist` folder to GitHub Pages.
+
+```sh
+npm run deploy
+```
+
+## Project Notes
+
+- The deploy URL is configured via the `homepage` field in `package.json`.
+
+## License
+
+No license has been specified for this repository.
